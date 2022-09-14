@@ -1,0 +1,2 @@
+# tailwindcss-types
+TailwindCSS types
