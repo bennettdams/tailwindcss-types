@@ -1,0 +1,28 @@
+{
+  "name": "tailwindcss-types",
+  "version": "0.0.1",
+  "description": "TailwindCSS utilities as types",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bennettdams/tailwindcss-types.git"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "typescript",
+    "types"
+  ],
+  "author": {
+    "name": "Bennett Dams",
+    "url": "https://twitter.com/BennettDams"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bennettdams/tailwindcss-types/issues"
+  },
+  "homepage": "https://github.com/bennettdams/tailwindcss-types#readme"
+}
