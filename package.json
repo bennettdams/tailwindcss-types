@@ -2,10 +2,18 @@
   "name": "tailwindcss-types",
   "version": "0.0.1",
   "description": "TailwindCSS utilities as types",
-  "main": "index.js",
+  "main": "dist/tailwindcss-types.cjs.js",
+  "module": "dist/tailwindcss-types.esm.js",
   "scripts": {
+    "init": "preconstruct init",
+    "build": "preconstruct build",
+    "fix": "preconstruct fix",
+    "validate": "preconstruct validate",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bennettdams/tailwindcss-types.git"
@@ -26,6 +34,7 @@
   },
   "homepage": "https://github.com/bennettdams/tailwindcss-types#readme",
   "devDependencies": {
+    "@preconstruct/cli": "^2.2.1",
     "typescript": "^4.8.3"
   }
 }
