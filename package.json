@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/bennettdams/tailwindcss-types/issues"
   },
-  "homepage": "https://github.com/bennettdams/tailwindcss-types#readme"
+  "homepage": "https://github.com/bennettdams/tailwindcss-types#readme",
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  }
 }
